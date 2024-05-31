@@ -82,8 +82,8 @@ class Curso {
         for (let i = 0; i < this.alumnos.length; i++) {
             sumaEdadesAlumnos += this.alumnos[i].dameTuEdad();
         }
-        console.log("sumaEdadesAlumnos",sumaEdadesAlumnos);
-        console.log("promedio",promedio(sumaEdadesAlumnos, this.alumnos.length));
+        // console.log("sumaEdadesAlumnos",sumaEdadesAlumnos);
+        // console.log("promedio",promedio(sumaEdadesAlumnos, this.alumnos.length));
         return promedio(sumaEdadesAlumnos, this.alumnos.length);
     }
 
@@ -104,6 +104,7 @@ class Curso {
         return this.promedioEdadesAlumnos() < 25;
     }
 }
+
 function promedio(total, cantidad) {
     return parseFloat(Math.round(total / cantidad,2));
 }

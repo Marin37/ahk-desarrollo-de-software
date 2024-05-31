@@ -1,0 +1,3 @@
+
+2 o mas objetos son polimorficoa para un 3ro si este los usa de forma indistinta
+en este caso, materia y materiaPromocionable son polimorficos para cursada
